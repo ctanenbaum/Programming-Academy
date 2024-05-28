@@ -1,0 +1,76 @@
+#menu {
+    font-size: 2em;
+    text-align: center;
+    background-color: rgb(13, 21, 74);
+    padding: 1em;
+
+}
+
+a:link,
+a:visited {
+    color: DDFFF7;
+    text-decoration: none;
+    margin: 1em;
+    text-align: center;
+
+}
+
+
+a:link#contact {
+    color: black;
+}
+
+a:hover {
+    color: rgb(130, 107, 122);
+}
+
+
+//styles for slideshow
+*{
+	margin: 0;
+	padding: 0;
+}
+.wrapper{
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+
+
+#footer {
+    background-color: rgb(13, 21, 74);
+    padding: .5em;
+    font-size: 1em;
+    color: DDFFF7;
+}
